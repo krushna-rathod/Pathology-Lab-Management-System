@@ -1,0 +1,106 @@
+/* Full page */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Background */
+.login-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f2027, #2c5364);
+}
+
+/* Card */
+.login-box {
+  width: 360px;
+  padding: 45px 35px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  color: #fff;
+}
+
+/* Title */
+.login-box h2 {
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+.subtitle {
+  font-size: 13px;
+  margin-bottom: 30px;
+  opacity: 0.8;
+}
+
+/* Input group */
+.input-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+/* Inputs */
+.input-group input {
+  width: 100%;
+  padding: 10px 5px;
+  font-size: 15px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  color: #fff;
+  outline: none;
+}
+
+/* Label */
+.input-group label {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  color: #bbb;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* Floating label */
+.input-group input:focus + label,
+.input-group input:valid + label {
+  top: -12px;
+  font-size: 12px;
+  color: #00e6a8;
+}
+
+/* Button */
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  background: linear-gradient(135deg, #00e6a8, #00c6ff);
+  color: #003333;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover */
+.login-box button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 230, 168, 0.4);
+}
+
+/* Optional top bar fix */
+.topbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  font-weight: 500;
+}

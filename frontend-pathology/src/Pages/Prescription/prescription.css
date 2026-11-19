@@ -1,0 +1,270 @@
+
+.prescription {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.presdownload {
+  width: 60%;
+  margin-top: 5%;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Header */
+.header-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #0cbbbb;
+  padding-bottom: 10px;
+}
+
+.presc-logo {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.namePathology {
+  font-size: 26px;
+  font-weight: bold;
+  color: #0cbbbb;
+}
+
+.addressDetails {
+  font-size: 13px;
+}
+
+.mobNo {
+  font-weight: bold;
+}
+
+/* Patient Info */
+.patient-info {
+  margin-top: 30px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.patient-info-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.info-detail {
+  display: flex;
+  width: 32%;
+}
+
+.info-detail-age {
+  display: flex;
+  width: 20%;
+}
+
+.patient-name-attr {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.patient-name-value {
+  font-weight: 500;
+}
+
+/* Table */
+.table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #0cbbbb;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Abnormal Result */
+.abnormal {
+  color: red;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer-prescription {
+  margin-top: 60px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.examinedBy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signature {
+  display: flex;
+  flex-direction: column;
+}
+
+.signature div:first-child {
+  font-size: 12px;
+  color: gray;
+}
+
+/* Button */
+.pdf-down-btn {
+  background: linear-gradient(135deg, #0cbbbb, #20e3b2);
+  color: white;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pdf-down-btn:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+/* .prescription {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: open-sans;
+  align-items: center;
+}
+
+.presdownload {
+  width: 60%;
+  margin-top: 5%;
+  padding: 1%;
+  background-color: whitesmoke;
+}
+
+.header-logos {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.presc-logo {
+  width: 10%;
+  border-radius: 100%;
+}
+
+.pathologyDesc {
+  display: flex;
+  flex-direction: column;
+}
+
+.namePathology {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.addressDetails {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.patient-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.patient-info-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.info-detail {
+  display: flex;
+  width: 30%;
+}
+
+.info-detail-age {
+  display: flex;
+  width: 15%;
+}
+
+.patient-name-value {
+  font-weight: 550;
+}
+
+.result-section {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+
+.testname-result {
+  font-size: 18px;
+  font-weight: 550;
+}
+
+.table {
+  width: 100%;
+  margin-top: 20px;
+  /* border: 1px solid; */
+/* } */
+/*
+th {
+  text-align: left;
+}
+
+.footer-prescription {
+  margin-top: 25%;
+}
+
+.examinedBy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signature {
+  display: flex;
+  flex-direction: column;
+}
+
+.pdf-down-btn {
+  background-color: rgb(12, 187, 187);
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.finalPresTableRow{
+
+  margin-bottom: 20px;
+} */

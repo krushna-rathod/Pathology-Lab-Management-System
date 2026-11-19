@@ -1,0 +1,218 @@
+/* 
+
+.navbar{
+    width: 100%;
+  
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(184,229,229);
+   
+}
+
+.imgLogoNavbar{
+    width: 55px;
+    height: 55px;
+    margin-left: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+.rightSideNavbar{
+    display: flex;
+    height: 100%;
+    
+   
+}
+.linksRightNavbar{
+    margin: 0 20px;
+    border:1px solid rgb(184,229,229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:120px;
+    font-weight: 700;
+    cursor: pointer;
+    background: linear-gradient(#3ac6bc 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+       transition: 0.8s, background-position 0s;
+       border-radius: 5px;
+       font-size: 17px;
+       position: relative;
+       text-decoration: none;
+       color: black;
+}
+.linksRightNavbar:hover{
+    background-color:rgb(12,187,187);
+    --p:100%;
+    color: #000000;
+}
+
+.addtest-modal{
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    background-color: whitesmoke;
+    box-shadow:0 0 5px #999;
+    width: 350px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.addtest-modal{
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    background-color: whitesmoke;
+    box-shadow:0 0 5px #999;
+    width: 350px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.input-addtest-modal{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.inputAddtestLabel{
+   font-size: 15px; 
+}
+
+.create-addtest{
+    width: 80px;
+    border: 1px solid;
+    height: 25px;
+    display: flex;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px; 
+    
+    
+}
+.create-addtest:hover{
+    background-color: #3ac6bc;
+}
+
+ */
+ 
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    background-color: rgb(184,229,229);
+    padding: 0 25px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* LOGO */
+.imgLogoNavbar {
+    width: 52px;
+    height: 52px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+/* RIGHT SIDE */
+.rightSideNavbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;  /* 🔥 spacing between buttons */
+}
+
+/* NAV BUTTONS */
+.linksRightNavbar {
+    padding: 8px 16px;
+    min-width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 17px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.linksRightNavbar:hover {
+    background-color: rgb(12,187,187);
+    color: white;
+}
+
+/* ADD TEST MODAL */
+.addtest-modal {
+    position: absolute;
+    top: 110%;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    width: 320px;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 100;
+}
+
+/* INPUT ROW */
+.input-addtest-modal {
+    display: flex;
+    flex-direction: column;   /* 🔥 better alignment */
+    margin-bottom: 12px;
+}
+
+/* LABEL */
+.inputAddtestLabel {
+    font-size: 13px;
+    margin-bottom: 4px;
+    color: #444;
+}
+
+/* INPUT FIELD */
+.modal-input-fld {
+    padding: 7px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+/* INPUT FOCUS */
+.modal-input-fld:focus {
+    outline: none;
+    border-color: #0cbbbb;
+    box-shadow: 0 0 4px rgba(12,187,187,0.4);
+}
+
+/* CREATE BUTTON */
+.create-addtest {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    background-color: #0cbbbb;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* HOVER */
+.create-addtest:hover {
+    background-color: #099999;
+    transform: translateY(-1px);
+}

@@ -1,0 +1,244 @@
+/* RESET (IMPORTANT) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* PAGE */
+.report-page {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background: #f4f7fb;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* MAIN CARD */
+.reportDiv {
+  width: 900px;
+  max-width: 100%;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 25px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* HEADER */
+.report-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+.report-header h2 {
+  color: #0cbbbb;
+  font-size: 24px;
+}
+
+.report-header span {
+  font-size: 14px;
+  color: gray;
+}
+
+/* PATIENT INFO */
+.report-infos {
+  display: flex;
+  justify-content: space-between;
+  background: #f9fbfd;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+/* TABLE */
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.report-table th {
+  background: #0cbbbb;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.report-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+/* ROW HOVER */
+.report-table tr:hover {
+  background: #f1faff;
+}
+
+/* INPUT */
+.input-field {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.input-field:focus {
+  border-color: #0cbbbb;
+  outline: none;
+}
+
+/* BUTTON GROUP */
+.btn-group {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* COMMON BUTTON */
+.btn {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+/* ADD BUTTON */
+.add-btn {
+  background: #0cbbbb;
+  color: white;
+}
+
+.add-btn:hover {
+  background: #0aa5a5;
+  transform: translateY(-1px);
+}
+
+/* REMOVE BUTTON */
+.remove-btn {
+  background: #ff4d4d;
+  color: white;
+}
+
+.remove-btn:hover {
+  background: #e60000;
+  transform: translateY(-1px);
+}
+
+/* GENERATE BUTTON */
+.submit-btn {
+  background: linear-gradient(135deg, #0cbbbb, #20e3b2);
+  color: white;
+  text-decoration: none;
+  margin-left: auto;
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  transform: scale(1.05);
+}
+
+
+
+/*.report-page {
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.reportDiv {
+  width: 60%;
+  border: 1px solid rgb(218, 214, 214);
+  background-color: whitesmoke;
+  padding: 5%;
+}
+
+.report-infos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.report-inputBlock {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+ 
+}
+
+.report-tests {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.nameOfTest {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.inputRows {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-row-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-test-name {
+  font-size: 12px;
+  color: black;
+}
+
+.btn-grp-add-rem {
+  display: flex;
+}
+
+.add-btn-row {
+  background-color: rgb(12, 187, 187);
+  width: 60px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+
+.input-feild-tests {
+  border: 1px solid rgb(12, 187, 187);
+  border-radius: 5px;
+  width: 90%;
+}
+
+.input-feild-tests:focus {
+  outline: none;
+}
+*/

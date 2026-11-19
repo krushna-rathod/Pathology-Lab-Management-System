@@ -1,0 +1,89 @@
+/* ===== FOOTER ===== */
+.footer {
+  background: #0a3d62;
+  color: #ffffff;
+  margin-top: 5px;          /* ↑ more space from above */
+  padding: 50px 0 5px;     /* ↑ more top & bottom space */
+}
+
+/* CONTAINER */
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;          /* ↑ more left-right space */
+  flex-wrap: wrap;
+  gap: 40px;                /* ↑ more gap between sections */
+}
+
+/* SECTIONS */
+.footerSection {
+  flex: 1;
+  min-width: 220px;
+}
+
+/* HEADINGS */
+.footerSection h3,
+.footerSection h4 {
+  margin-bottom: 15px;      /* ↑ more space below headings */
+}
+
+/* TEXT */
+.footerSection p {
+  font-size: 14px;
+  line-height: 1.8;         /* ↑ better readability */
+  margin-bottom: 8px;
+}
+
+/* LINKS */
+.footerSection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerSection ul li {
+  margin-bottom: 10px;      /* ↑ more space between links */
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footerSection ul li:hover {
+  color: #38ada9;
+}
+
+/* SOCIAL ICONS */
+.socialIcons {
+  margin-top: 15px;         /* ↑ space above icons */
+  display: flex;
+  gap: 20px;                /* ↑ spacing between icons */
+}
+
+.socialIcons a {
+  color: #ffffff;
+  font-size: 22px;          /* slightly bigger */
+  transition: 0.3s;
+}
+
+.socialIcons a:hover {
+  color: #38ada9;
+  transform: scale(1.2);
+}
+
+/* BOTTOM */
+.footerBottom {
+  text-align: center;
+  padding: 20px;            /* ↑ more padding */
+  margin-top: 30px;         /* ↑ space from above */
+  background: #082c4a;
+  font-size: 14px;
+}
+/* REMOVE default blue link style */
+.footerSection ul li a {
+  text-decoration: none;
+  color: #ffffff;        /* pure black */
+  font-size: 14px;
+}
+
+/* Optional hover (still black, just underline) */
+.footerSection ul li a:hover {
+  text-decoration: underline;
+}

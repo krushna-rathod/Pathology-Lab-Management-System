@@ -1,0 +1,256 @@
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* PAGE */
+.statusPage {
+  width: 100%;
+  min-height: 100vh;
+  background: #f4f7fb;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* MAIN CONTAINER */
+.statusPageWorkDiv {
+  width: 900px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* STATUS BAR (TABS) */
+.statusBar {
+  display: flex;
+  width: 60%;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #0cbbbb;
+}
+
+.statusTitle {
+  width: 50%;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+  cursor: pointer;
+  background: white;
+  transition: 0.3s;
+}
+
+.statusTitle:hover {
+  background: #e6fafa;
+}
+
+.activeBarStatus {
+  background: #0cbbbb;
+  color: white;
+  font-weight: 500;
+}
+
+/* LIST */
+.statusList {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* CARD ROW */
+.statusRowList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 1px solid #e0f2f2;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  transition: 0.2s;
+}
+
+.statusRowList:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* NAME */
+.statusName {
+  width: 30%;
+  font-weight: 500;
+}
+
+/* DOCTOR + DATE */
+.statusDrDetails {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statusDrName {
+  font-size: 14px;
+  color: #555;
+}
+
+/* BUTTONS */
+.statusBtns {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* ICON BUTTON */
+.icons {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  margin-right:10px;
+  transition: 0.2s;
+}
+.icons:hover {
+  transform: scale(1.1);
+}
+
+/* EDIT */
+.icons.edit {
+  background: #0cbbbb;
+}
+
+.icons.edit:hover {
+  background: #0aa5a5;
+}
+
+/* DELETE */
+.icons.delete {
+  background: #ff4d4d;
+}
+
+.icons.delete:hover {
+  background: #e60000;
+}
+
+/* VIEW */
+.icons.view {
+  background: #4caf50;
+}
+
+.icons.view:hover {
+  background: #388e3c;
+}
+
+/* EMPTY STATE */
+.noData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.noData img {
+  width: 350px;
+  opacity: 0.8;
+}
+/*
+.statusPage{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statusPageWorkDiv{
+width: 70%;
+padding: 20px 0px;
+display: flex;
+ justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.statusBar{
+    display: flex;
+    width: 70%;
+}
+.statusTitle{
+    width: 50%;
+    border: 1px solid rgb(12,187,187);
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     padding: 5px 0px;
+     font-size: 18px;
+     color: black;
+     cursor: pointer;
+}
+.activeBarStatus{
+    background-color:rgb(12,187,187);
+    color: white;
+}
+
+
+.statusList{
+    width: 100%;
+    
+     display: flex;
+       flex-direction: column;
+       margin-top: 40px;
+}
+.statusRowList{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border: 1px solid rgb(12,187,187);
+    margin-bottom: 20px;
+
+}
+.statusName{
+    width: 30%;
+    display: flex;
+ justify-content: center;
+  align-items: center;
+
+}
+.statusDrDetails{
+    width: 30%;
+    display: flex;
+ justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+.statusBtns{
+    width: 30%;
+    display: flex;
+ justify-content: space-between;
+  align-items: center;
+  padding-right: 5px;
+ 
+}
+.icons{
+    width: 15%;
+    height: 65%;
+    background-color: yellow;
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+*/
